@@ -18,9 +18,6 @@ public class Compromisso implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
-	/*
-	 *  If you are using Glassfish then remove the strategy attribute
-	 */
 	@Id
 	@GeneratedValue(strategy = SEQUENCE)
 	private Long id;
